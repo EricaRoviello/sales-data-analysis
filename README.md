@@ -7,10 +7,10 @@ Il dataset non include informazioni sui prezzi; di conseguenza, l’analisi si c
 ## Dataset
 Il dataset contiene le seguenti variabili principali:
 
-**customer_id**: identificativo del cliente
-**product_id**: identificativo del prodotto
-**basket_date**: data della transazione
-**basket_count**: quantità acquistata
+- **customer_id**: identificativo del cliente
+- **product_id**: identificativo del prodotto
+- **basket_date**: data della transazione
+- **basket_count**: quantità acquistata
 
 ## Analisi svolte
 
