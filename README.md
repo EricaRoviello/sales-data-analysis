@@ -1,39 +1,52 @@
-# Analisi esplorativa dei volumi di vendita
-Questo progetto presenta un’analisi esplorativa dei dati (EDA) su un dataset di transazioni di un e-commerce.
-L’obiettivo è analizzare i volumi di vendita, identificando i prodotti e i clienti più rilevanti e osservando l’andamento temporale delle transazioni.
-L’analisi è stata svolta a scopo di studio, utilizzando **Python**, **pandas** e **matplotlib**.
-Il dataset non include informazioni sui prezzi; di conseguenza, l’analisi si concentra esclusivamente sulle quantità vendute.
+# Exploratory Analysis of Sales Volumes
+
+This project presents an exploratory data analysis (EDA) of an e-commerce transaction dataset.
+
+The main objective is to analyze sales volumes by identifying the most relevant products and customers and by studying the temporal evolution of transactions.
+The analysis was carried out for educational purposes using **Python**, **pandas**, and **matplotlib**.
+
+The dataset does not include pricing information; therefore, the analysis focuses exclusively on quantities sold rather than revenue.
+
+---
 
 ## Dataset
-Il dataset contiene le seguenti variabili principali:
 
-- **customer_id**: identificativo del cliente
-- **product_id**: identificativo del prodotto
-- **basket_date**: data della transazione
-- **basket_count**: quantità acquistata
+The dataset contains the following main variables:
+- **customer_id**: unique identifier of the customer  
+- **product_id**: unique identifier of the product  
+- **basket_date**: transaction date  
+- **basket_count**: quantity purchased  
 
-## Analisi svolte
+Each row represents a product-level transaction.
 
-- Controllo qualità dei dati (valori mancanti, duplicati)
-- Conversione e gestione delle variabili temporali
-- Analisi dei volumi di vendita
-- Identificazione dei prodotti più venduti
-- Identificazione dei clienti più attivi
-- Analisi dell’andamento temporale delle vendite
-- Visualizzazioni tramite grafici
+---
 
+## Analyses Performed
 
-## Risultati principali
-L’analisi ha evidenziato:
+The following analyses were conducted:
+- Data quality checks (missing values and duplicates)
+- Conversion and handling of temporal variables
+- Analysis of overall sales volumes
+- Identification of the top-selling products
+- Identification of the most active customers
+- Analysis of sales volume trends over time
+- Data visualization through charts and plots
 
-- una forte concentrazione dei volumi di vendita su un numero limitato di prodotti
-- un andamento temporale delle vendite con variazioni significative nel tempo
-- un numero medio di articoli per transazione molto elevato, suggerendo che il dataset rappresenti transazioni aggregate piuttosto che singoli acquisti al dettaglio.
+---
 
-## Possibili sviluppi futuri
+## Key Results
 
-Il progetto potrebbe essere esteso in diverse direzioni:
+The analysis highlights:
+- A strong concentration of sales volumes among a limited number of products
+- Significant variations in sales volumes over time
+- A very high average number of items per transaction, suggesting that the dataset represents aggregated or bulk transactions rather than individual retail purchases
 
-- integrazione di informazioni sui prezzi per analizzare il fatturato oltre ai volumi di vendita
-- analisi più approfondita del comportamento dei clienti (frequenza di acquisto)
-- sviluppo di un modello predittivo per stimare i volumi di vendita futuri
+---
+
+## Future Improvements
+
+Possible extensions of this project include:
+
+- Integrating price information to analyze revenue in addition to sales volumes
+- Performing a deeper analysis of customer behavior (purchase frequency and recurrence)
+- Developing predictive models to forecast future sales volumes
