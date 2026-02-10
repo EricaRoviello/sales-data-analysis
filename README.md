@@ -39,7 +39,7 @@ The following analyses were conducted:
 The analysis highlights:
 - A strong concentration of sales volumes among a limited number of products
 - Significant variations in sales volumes over time
-- A very high average number of items per transaction, suggesting that the dataset represents aggregated or bulk transactions rather than individual retail purchases
+- An high average number of items per transaction, suggesting that the dataset represents aggregated or bulk transactions rather than individual retail purchases
 
 ---
 
