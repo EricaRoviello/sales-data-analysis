@@ -3,7 +3,7 @@
 This project presents an exploratory data analysis (EDA) of an e-commerce transaction dataset.
 
 The main objective is to analyze sales volumes by identifying the most relevant products and customers and by studying the temporal evolution of transactions.
-The analysis was carried out for educational purposes using **Python**, **pandas**, and **matplotlib**.
+The analysis was carried out for educational purposes using **Python**, **pandas**, **matplotlib** and **seaborn**.
 
 The dataset does not include pricing information; therefore, the analysis focuses exclusively on quantities sold rather than revenue.
 
